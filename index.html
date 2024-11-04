@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skull Panda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo"> 
+        </div>
+        <h1>Welcome to Skull Panda!</h1>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+            <div class="cart" id="cart-button">🛒 Cart (<span id="cart-count">0</span>)</div>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+        </div>
+    </header>
+    
+    <div id="home" class="section active">
+        <div class="product-container">
+            <div class="product">
+                <img src="100.jpg" alt="Product 1">
+                <div class="product-name">The Serenity</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="12.jpg" alt="Product 2">
+                <div class="product-name">The Equilibrium</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="13.jpg" alt="Product 3">
+                <div class="product-name">The Bunny</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="14.jpg" alt="Product 4">
+                <div class="product-name">The Trust</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="155.jpg" alt="Product 5">
+                <div class="product-name">The Joy</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="166.jpg" alt="Product 6">
+                <div class="product-name">The Disgust</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="17.jpg" alt="Product 7">
+                <div class="product-name">The Pensiveness</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="18.jpg" alt="Product 8">
+                <div class="product-name">The Awe</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="19.jpg" alt="Product 9">
+                <div class="product-name">The Anger</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="10.jpg" alt="Product 10">
+                <div class="product-name">The Ecstacy</div>
+                <div class="product-price">$109.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a fictional company dedicated to providing the best products for our customers.</p>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email us at: support@example.com</p>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+            <button id="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Skull Panda</p>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo"> <!-- Replace with your logo URL -->
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
